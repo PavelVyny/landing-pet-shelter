@@ -1,0 +1,46 @@
+.about {
+	&__container {
+		display: flex;
+		flex-direction: row-reverse;
+		justify-content: center;
+		align-items: center;
+		max-width: $desktop;
+		margin: auto;
+		padding-top: 90px;
+		padding-bottom: 90px;
+		@include screen($w1250) {
+			max-width: $w900;
+		}
+		@include screen($w1024) {
+			max-width: 90%;
+		}
+		@include screen($w768) {
+			max-width: 90%;
+			padding-top: 50px;
+			padding-bottom: 40px;
+			flex-direction: column;
+		}
+	}
+	&__image-box {
+		margin-right: 120px;
+		@include screen($w768) {
+			width: 50%;
+			margin-right: 0;
+			margin-top: 40px;
+		}
+	}
+	&__text {
+		max-width: 430px;
+	}
+	&__info {
+		color: $third-text;
+		font-size: 1.5rem;
+		font-family: "ArialMT";
+	}
+	&__info-part:first-child {
+		padding-bottom: 30px;
+	}
+}
+.headline_about {
+	padding-bottom: 30px;
+}

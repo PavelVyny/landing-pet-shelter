@@ -1,0 +1,222 @@
+// SCSS variables are information about icon's compiled state, stored under its original file name
+//
+// .icon-home {
+//   width: $icon-home-width;
+// }
+//
+// The large array-like variables contain all information about a single icon
+// $icon-home: x y offset_x offset_y width height total_width total_height image_path;
+//
+// At the bottom of this section, we provide information about the spritesheet itself
+// $spritesheet: width height image $spritesheet-sprites;
+$icon-ambulance-name: 'icon-ambulance';
+$icon-ambulance-x: 0px;
+$icon-ambulance-y: 0px;
+$icon-ambulance-offset-x: 0px;
+$icon-ambulance-offset-y: 0px;
+$icon-ambulance-width: 65px;
+$icon-ambulance-height: 65px;
+$icon-ambulance-total-width: 233px;
+$icon-ambulance-total-height: 189px;
+$icon-ambulance-image: '../images/sprite/sprite.png';
+$icon-ambulance: (0px, 0px, 0px, 0px, 65px, 65px, 233px, 189px, '../images/sprite/sprite.png', 'icon-ambulance', );
+$icon-ball-name: 'icon-ball';
+$icon-ball-x: 140px;
+$icon-ball-y: 0px;
+$icon-ball-offset-x: -140px;
+$icon-ball-offset-y: 0px;
+$icon-ball-width: 58px;
+$icon-ball-height: 58px;
+$icon-ball-total-width: 233px;
+$icon-ball-total-height: 189px;
+$icon-ball-image: '../images/sprite/sprite.png';
+$icon-ball: (140px, 0px, -140px, 0px, 58px, 58px, 233px, 189px, '../images/sprite/sprite.png', 'icon-ball', );
+$icon-bowl-name: 'icon-bowl';
+$icon-bowl-x: 69px;
+$icon-bowl-y: 70px;
+$icon-bowl-offset-x: -69px;
+$icon-bowl-offset-y: -70px;
+$icon-bowl-width: 58px;
+$icon-bowl-height: 55px;
+$icon-bowl-total-width: 233px;
+$icon-bowl-total-height: 189px;
+$icon-bowl-image: '../images/sprite/sprite.png';
+$icon-bowl: (69px, 70px, -69px, -70px, 58px, 55px, 233px, 189px, '../images/sprite/sprite.png', 'icon-bowl', );
+$icon-cat-food-name: 'icon-cat-food';
+$icon-cat-food-x: 59px;
+$icon-cat-food-y: 132px;
+$icon-cat-food-offset-x: -59px;
+$icon-cat-food-offset-y: -132px;
+$icon-cat-food-width: 45px;
+$icon-cat-food-height: 57px;
+$icon-cat-food-total-width: 233px;
+$icon-cat-food-total-height: 189px;
+$icon-cat-food-image: '../images/sprite/sprite.png';
+$icon-cat-food: (59px, 132px, -59px, -132px, 45px, 57px, 233px, 189px, '../images/sprite/sprite.png', 'icon-cat-food', );
+$icon-cat-name: 'icon-cat';
+$icon-cat-x: 0px;
+$icon-cat-y: 132px;
+$icon-cat-offset-x: 0px;
+$icon-cat-offset-y: -132px;
+$icon-cat-width: 54px;
+$icon-cat-height: 57px;
+$icon-cat-total-width: 233px;
+$icon-cat-total-height: 189px;
+$icon-cat-image: '../images/sprite/sprite.png';
+$icon-cat: (0px, 132px, 0px, -132px, 54px, 57px, 233px, 189px, '../images/sprite/sprite.png', 'icon-cat', );
+$icon-credit-card-name: 'icon-credit-card';
+$icon-credit-card-x: 203px;
+$icon-credit-card-y: 104px;
+$icon-credit-card-offset-x: -203px;
+$icon-credit-card-offset-y: -104px;
+$icon-credit-card-width: 30px;
+$icon-credit-card-height: 24px;
+$icon-credit-card-total-width: 233px;
+$icon-credit-card-total-height: 189px;
+$icon-credit-card-image: '../images/sprite/sprite.png';
+$icon-credit-card: (203px, 104px, -203px, -104px, 30px, 24px, 233px, 189px, '../images/sprite/sprite.png', 'icon-credit-card', );
+$icon-leash-name: 'icon-leash';
+$icon-leash-x: 70px;
+$icon-leash-y: 0px;
+$icon-leash-offset-x: -70px;
+$icon-leash-offset-y: 0px;
+$icon-leash-width: 65px;
+$icon-leash-height: 57px;
+$icon-leash-total-width: 233px;
+$icon-leash-total-height: 189px;
+$icon-leash-image: '../images/sprite/sprite.png';
+$icon-leash: (70px, 0px, -70px, 0px, 65px, 57px, 233px, 189px, '../images/sprite/sprite.png', 'icon-leash', );
+$icon-mail-name: 'icon-mail';
+$icon-mail-x: 154px;
+$icon-mail-y: 132px;
+$icon-mail-offset-x: -154px;
+$icon-mail-offset-y: -132px;
+$icon-mail-width: 40px;
+$icon-mail-height: 26px;
+$icon-mail-total-width: 233px;
+$icon-mail-total-height: 189px;
+$icon-mail-image: '../images/sprite/sprite.png';
+$icon-mail: (154px, 132px, -154px, -132px, 40px, 26px, 233px, 189px, '../images/sprite/sprite.png', 'icon-mail', );
+$icon-pills-name: 'icon-pills';
+$icon-pills-x: 0px;
+$icon-pills-y: 70px;
+$icon-pills-offset-x: 0px;
+$icon-pills-offset-y: -70px;
+$icon-pills-width: 64px;
+$icon-pills-height: 57px;
+$icon-pills-total-width: 233px;
+$icon-pills-total-height: 189px;
+$icon-pills-image: '../images/sprite/sprite.png';
+$icon-pills: (0px, 70px, 0px, -70px, 64px, 57px, 233px, 189px, '../images/sprite/sprite.png', 'icon-pills', );
+$icon-pin-name: 'icon-pin';
+$icon-pin-x: 203px;
+$icon-pin-y: 63px;
+$icon-pin-offset-x: -203px;
+$icon-pin-offset-y: -63px;
+$icon-pin-width: 26px;
+$icon-pin-height: 36px;
+$icon-pin-total-width: 233px;
+$icon-pin-total-height: 189px;
+$icon-pin-image: '../images/sprite/sprite.png';
+$icon-pin: (203px, 63px, -203px, -63px, 26px, 36px, 233px, 189px, '../images/sprite/sprite.png', 'icon-pin', );
+$icon-shampoo-name: 'icon-shampoo';
+$icon-shampoo-x: 203px;
+$icon-shampoo-y: 0px;
+$icon-shampoo-offset-x: -203px;
+$icon-shampoo-offset-y: 0px;
+$icon-shampoo-width: 30px;
+$icon-shampoo-height: 58px;
+$icon-shampoo-total-width: 233px;
+$icon-shampoo-total-height: 189px;
+$icon-shampoo-image: '../images/sprite/sprite.png';
+$icon-shampoo: (203px, 0px, -203px, 0px, 30px, 58px, 233px, 189px, '../images/sprite/sprite.png', 'icon-shampoo', );
+$icon-syringe-name: 'icon-syringe';
+$icon-syringe-x: 140px;
+$icon-syringe-y: 63px;
+$icon-syringe-offset-x: -140px;
+$icon-syringe-offset-y: -63px;
+$icon-syringe-width: 58px;
+$icon-syringe-height: 58px;
+$icon-syringe-total-width: 233px;
+$icon-syringe-total-height: 189px;
+$icon-syringe-image: '../images/sprite/sprite.png';
+$icon-syringe: (140px, 63px, -140px, -63px, 58px, 58px, 233px, 189px, '../images/sprite/sprite.png', 'icon-syringe', );
+$icon-telephone-name: 'icon-telephone';
+$icon-telephone-x: 109px;
+$icon-telephone-y: 132px;
+$icon-telephone-offset-x: -109px;
+$icon-telephone-offset-y: -132px;
+$icon-telephone-width: 40px;
+$icon-telephone-height: 32px;
+$icon-telephone-total-width: 233px;
+$icon-telephone-total-height: 189px;
+$icon-telephone-image: '../images/sprite/sprite.png';
+$icon-telephone: (109px, 132px, -109px, -132px, 40px, 32px, 233px, 189px, '../images/sprite/sprite.png', 'icon-telephone', );
+$spritesheet-width: 233px;
+$spritesheet-height: 189px;
+$spritesheet-image: '../images/sprite/sprite.png';
+$spritesheet-sprites: ($icon-ambulance, $icon-ball, $icon-bowl, $icon-cat-food, $icon-cat, $icon-credit-card, $icon-leash, $icon-mail, $icon-pills, $icon-pin, $icon-shampoo, $icon-syringe, $icon-telephone, );
+$spritesheet: (233px, 189px, '../images/sprite/sprite.png', $spritesheet-sprites, );
+
+// The provided mixins are intended to be used with the array-like variables
+//
+// .icon-home {
+//   @include sprite-width($icon-home);
+// }
+//
+// .icon-email {
+//   @include sprite($icon-email);
+// }
+//
+// Example usage in HTML:
+//
+// `display: block` sprite:
+// <div class="icon-home"></div>
+//
+// To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+//
+// // CSS
+// .icon {
+//   display: inline-block;
+// }
+//
+// // HTML
+// <i class="icon icon-home"></i>
+@mixin sprite-width($sprite) {
+  width: nth($sprite, 5);
+}
+
+@mixin sprite-height($sprite) {
+  height: nth($sprite, 6);
+}
+
+@mixin sprite-position($sprite) {
+  $sprite-offset-x: nth($sprite, 3);
+  $sprite-offset-y: nth($sprite, 4);
+  background-position: $sprite-offset-x  $sprite-offset-y;
+}
+
+@mixin sprite-image($sprite) {
+  $sprite-image: nth($sprite, 9);
+  background-image: url(#{$sprite-image});
+}
+
+@mixin sprite($sprite) {
+  @include sprite-image($sprite);
+  @include sprite-position($sprite);
+  @include sprite-width($sprite);
+  @include sprite-height($sprite);
+}
+
+// The `sprites` mixin generates identical output to the CSS template
+//   but can be overridden inside of SCSS
+//
+// @include sprites($spritesheet-sprites);
+@mixin sprites($sprites) {
+  @each $sprite in $sprites {
+    $sprite-name: nth($sprite, 10);
+    .#{$sprite-name} {
+      @include sprite($sprite);
+    }
+  }
+}

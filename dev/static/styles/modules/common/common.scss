@@ -1,0 +1,13 @@
+.headline {
+	color: $main-text;
+	font-size: 3.5rem;
+	font-family: "Georgia";
+	letter-spacing: 2.1px;
+	line-height: 45px;
+	&-part {
+		display: block;
+	}
+	@include screen($w768) {
+		font-size: 2.2rem;
+	}
+}

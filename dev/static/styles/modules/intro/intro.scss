@@ -1,0 +1,91 @@
+.intro {
+	padding-top: 120px;
+	padding-bottom: 255px;
+	background-image: url(../images/content/intro/intro-bg.webp);
+	background-repeat: no-repeat;
+	position: relative;
+	overflow: hidden;
+	&::before {
+		content: "";
+		background-image: url(../images/content/intro/intro-bg-pet.webp);
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		width: 974px;
+		height: 924px;
+		position: absolute;
+		bottom: 0;
+		left: 50%;
+		@include screen($w1250) {
+			background-size: 50% 50%;
+			transform: translate(50%, 50%);
+			left: unset;
+			right: -60px;
+		}
+		@include screen($w1024) {
+			display: none;
+		}
+		
+	}
+	&__container {
+		max-width: $desktop;
+		margin: auto;
+		@include screen($w1250) {
+			max-width: $w900;
+		}
+		@include screen($w1024) {
+			max-width: 90%;
+		}
+		@include screen($w768) {
+			max-width: 90%;
+		}
+	}
+	&__message {
+		max-width: 455px;
+		padding-top: 250px;
+		@include screen($w1250) {
+			padding-top: 150px;
+		}
+		@include screen($w768) {
+			padding-top: 100px;
+		}
+	}
+	&__text {
+		font-family: "ArialMT";
+		font-size: 1.5rem;
+		color: $second-text;
+		padding-bottom: 40px;
+	}
+	&__button {
+		font-family: "Georgia";
+		font-size: 1.7rem;
+		color: $button-text;
+		@include box(205px, 52px);
+		background-color: $brand;
+		border-radius: 26px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		cursor: pointer;
+		&:hover {
+			background-color: $brand-second;
+		}
+	}
+	@include screen($w1250) {
+		padding-top: 90px;
+		padding-bottom: 100px;
+	}
+	@include screen($w768) {
+		padding-bottom: 40px;
+	}
+}
+.headline_intro {
+	font-size: 4.4rem;
+	color: $white;
+	line-height: initial;
+	max-width: 400px;
+	padding-bottom: 40px;
+	letter-spacing: 2.64px;
+	@include screen($w768) {
+		font-size: 3.2rem;
+	}
+}

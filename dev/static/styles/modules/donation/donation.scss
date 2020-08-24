@@ -1,0 +1,75 @@
+.donation {
+	background-color: $pets-bg;
+	&__container {
+		display: flex;
+		flex-direction: row-reverse;
+		justify-content: center;
+		align-items: center;
+		max-width: $desktop;
+		margin: auto;
+		padding-top: 72px;
+		padding-bottom: 80px;
+		@include screen($w1250) {
+			max-width: $w900;
+		}
+		@include screen($w1024) {
+			flex-direction: column;
+		}
+		@include screen($w768) {
+			max-width: 90%;
+			padding-top: 50px;
+			padding-bottom: 40px;
+		}
+	}
+	&__image-box {
+		padding-right: 60px;
+		@include screen($w1024) {
+			padding-top: 30px;
+		}
+		@include screen($w768) {
+			padding: 25px;
+		}
+	}
+}
+.bank-details {
+	&__description {
+		font-family: "Georgia";
+		font-size: 1.5rem;
+		color: $main-text;
+		letter-spacing: 0.9px;
+		padding-bottom: 10px;
+		padding-top: 25px;
+	}
+	&__card {
+		display: inline-block;
+		position: relative;
+		background-color: $brand;
+		border-radius: 9px;
+		font-family: "Times New Roman PSMT";
+		font-size: 2rem;
+		letter-spacing: 1.2px;
+		line-height: 47px;
+		text-align: center;
+		padding: 0 15px 0 59px;
+		cursor: pointer;
+		&::before {
+			content: "";
+			position: absolute;
+			top: 50%;
+			transform: translateY(-50%);
+			left: 15px;
+			@include sprite($icon-credit-card);
+		}
+		@include screen($w768) {
+			font-size: 1.6rem;
+		}
+	}
+	&__info {
+		max-width: 350px;
+		font-family: "ArialMT";
+		font-style: italic;
+		font-size: 1.2rem;
+		color: $info-text;
+		padding-top: 30px;
+	}
+}

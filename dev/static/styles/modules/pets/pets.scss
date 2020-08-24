@@ -1,0 +1,152 @@
+.pets {
+	background-color: $pets-bg;
+	&__container {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		max-width: $desktop;
+		margin: auto;
+		padding-top: 75px;
+		padding-bottom: 68px;
+		@include screen($w1250) {
+			max-width: $w900;
+		}
+		@include screen($w1024) {
+			max-width: 90%;
+		}
+		@include screen($w768) {
+			max-width: 90%;
+			padding-top: 50px;
+			padding-bottom: 40px;
+		}
+	}
+	&__button {
+		font-family: "Georgia";
+		font-size: 1.7rem;
+		color: $button-text;
+		@include box(267px, 52px);
+		margin-top: 65px;
+		border: 2px solid $brand;
+		border-radius: 26px;
+		background-color: $brand;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		cursor: pointer;
+		&:hover {
+			background-color: $brand-second;
+			border: unset;
+		}
+	}
+}
+.headline_pets {
+	text-align: center;
+	padding-bottom: 30px;
+}
+
+.pets-slider {
+	width: 100%;
+	padding: 0 85px;
+	&__item-box {
+		&:focus {
+			outline: 0;
+		}
+	}
+	&__item {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: flex-end;
+		width: 270px;
+		min-height: 424px;
+		background-color: $slide-bg;
+		padding-bottom: 34px;
+		margin: auto;
+		&:hover {
+			box-shadow: 0 2px 30px 5px rgba(13, 13, 13, 0.04);
+			border-radius: 9px;
+		}
+		@include screen($w768) {
+			width: auto;
+		}
+	}
+	&__image-box {
+		padding-bottom: 25px;
+	}
+	&__image {
+		margin: auto;
+	}
+	&__pet-name {
+		font-family: "Georgia";
+		font-size: 2rem;
+		color: $main-text;
+		letter-spacing: 1.2px;
+		padding-bottom: 20px;
+	}
+	&__button {
+		font-family: "Georgia";
+		font-size: 1.7rem;
+		color: $button-text;
+		@include box(188px, 52px);
+		border: 2px solid $brand;
+		border-radius: 26px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		cursor: pointer;
+		&:hover {
+			background-color: $brand;
+		}
+	}
+
+	.slick-arrow {
+		font-size: 0;
+		line-height: 0;
+		position: absolute;
+		top: 50%;
+		padding: 0;
+		transform: translate(0, -50%);
+		color: transparent;
+		border: none;
+		outline: none;
+		background: transparent;
+		position: absolute;
+		@include box(50px, 50px);
+		border: 2px solid $brand;
+		border-radius: 50%;
+		cursor: pointer;
+		z-index: 1;
+		&::before {
+			content: "";
+			@include box(15px, 7px);
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			opacity: unset;
+		}
+		&:hover {
+			background-color: $brand;
+		}
+		@include screen($w768) {
+			@include box(35px, 35px)
+		}
+	}
+	.slick-prev {
+		left: 0;
+		&::before {
+			background-image: url(../images/content/pets/long-left-arrow.webp);
+		}
+	}
+	.slick-next {
+		right: 0;
+		&::before {
+			background-image: url(../images/content/pets/long-left-arrow.webp);
+			transform: rotate(180deg) translate(50%, 50%);
+		}
+	}
+	@include screen($w768) {
+		padding: 0 40px;
+	}
+}
