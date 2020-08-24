@@ -53,7 +53,6 @@ function toggleSandwich() {
 			$menu.slideUp()
 			$sandwich.removeClass('sandwich_open')
 		} else {
-			console.log('opening')
 			$menu.slideDown({
 				start: function () {
 					$(this).css({
