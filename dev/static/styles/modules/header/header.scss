@@ -73,8 +73,8 @@
 			}
 			.menu-list__link {
 				color: $white;
-				@include screen($w1024) {
-				color: $black;
+				@include screen($w768) {
+					color: $black;
 				}
 			}
 		}
