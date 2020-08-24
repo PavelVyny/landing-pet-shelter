@@ -1,4 +1,5 @@
 const gulp = require('gulp');
+const ghPages = require('gulp-gh-pages');
 const script = require('./gulp/tasks/scripts');
 const fonts = require('./gulp/tasks/fonts');
 const vendors = require('./gulp/tasks/vendorsJS');
@@ -16,3 +17,10 @@ exports.default = gulp.series(
 	dev,
 	serve
 );
+
+
+
+gulp.task('deploy', function () {
+	return gulp.src('./dist/**/*')
+		.pipe(ghPages());
+});

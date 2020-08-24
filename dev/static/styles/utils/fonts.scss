@@ -11,9 +11,9 @@
   }
 }
 
-@include font-face('Georgia', '../fonts/georgia/georgia/georgia', 400, 'normal');
+@include font-face('Georgia', '../fonts/georgia/georgia/Georgia', 400, 'normal');
 
-@include font-face('Times New Roman PSMT', '../fonts/timesnewromanPSMT/timesnewromanPSMT/timesnewromanPSMT', 400, 'normal');
+@include font-face('Times New Roman PSMT', '../fonts/timesnewromanPSMT/timesnewromanPSMT/TimesNewRomanPSMT', 400, 'normal');
 
 @include font-face('ArialMT', '../fonts/arialMT/arialMT/ARIALMT', 400, 'normal');
 @include font-face('ArialMT', '../fonts/arialMT/arialMTitalic/Arial-ItalicMT', 400, 'italic');
